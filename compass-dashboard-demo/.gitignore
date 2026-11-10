@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# La planilla original de juicio experto nunca se versiona
+*Juicio_experto*.xlsx

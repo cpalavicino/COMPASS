@@ -1,0 +1,87 @@
+{
+  "_descripcion": "Biblioteca de textos por dimensión MLQ. El pipeline elige qué dimensiones mostrar según los datos; aquí solo se redacta. Editable por Investigación sin tocar código.",
+  "dimensions": {
+    "IIA": {
+      "conducta": "Genera confianza y respeto al priorizar el propósito colectivo por sobre el interés propio",
+      "fortaleza": "Proyecta credibilidad: sus respuestas anteponen el bien del CESFAM al resguardo personal",
+      "pregunta": "¿Qué señales concretas daría a los jefes de sector para que confíen en que decidirá pensando en el CESFAM y no en protegerse?",
+      "accion": "Antes de la próxima reunión, escriba en dos líneas el propósito que guía su decisión y compártalo al inicio de la conversación.",
+      "glosario": "Atribuciones de confianza, respeto y orgullo que otros depositan en quien lidera.",
+      "oportunidad": "Anteponer de forma visible el propósito común"
+    },
+    "IIC": {
+      "conducta": "Explicita valores y criterios compartidos al iniciar una conversación bajo presión",
+      "fortaleza": "Explicita criterios compartidos antes de decidir",
+      "pregunta": "¿Cómo convertiría esos criterios en una regla de decisión que el equipo pueda anticipar?",
+      "accion": "Practique comunicar una decisión dejando claros los dos o tres criterios utilizados y cómo se ponderaron.",
+      "glosario": "Conductas que muestran valores, sentido ético y coherencia entre lo que se dice y se hace.",
+      "oportunidad": "Convertir criterios compartidos en un plan de acción"
+    },
+    "MI": {
+      "conducta": "Comunica una visión y reconoce los logros del equipo para sostener el compromiso",
+      "fortaleza": "Moviliza al equipo con una visión y reconocimiento explícito",
+      "pregunta": "¿Qué historia del CESFAM contaría para que cada sector vea su lugar en la visión que propone?",
+      "accion": "Prepare un mensaje de un minuto que conecte la meta de la semana con un logro reciente del equipo.",
+      "glosario": "Articulación de una visión atractiva y expectativas altas, con optimismo sobre lo que se puede lograr.",
+      "oportunidad": "Comunicar una visión que movilice a los sectores"
+    },
+    "EI": {
+      "conducta": "Cuestiona prácticas heredadas y busca evidencia antes de mantener o cambiar una regla",
+      "fortaleza": "Cuestiona supuestos y revisa reglas con evidencia",
+      "pregunta": "¿Qué práctica que «siempre se ha hecho así» revisaría primero y qué dato necesitaría para decidir?",
+      "accion": "Ante el próximo conflicto recurrente (p. ej., el ecógrafo), pida a los involucrados una alternativa y el dato que la respalde.",
+      "glosario": "Estimular que otros replanteen problemas, cuestionen supuestos y propongan soluciones nuevas.",
+      "oportunidad": "Revisar con evidencia las prácticas heredadas"
+    },
+    "CI": {
+      "conducta": "Atiende la carga y el bienestar de personas concretas al tomar decisiones operativas",
+      "fortaleza": "Atiende la carga y el bienestar de las personas",
+      "pregunta": "¿Cómo equilibraría la necesidad individual de un funcionario con la cobertura que requiere el sector?",
+      "accion": "Identifique a una persona con sobrecarga y acuerde con ella un cambio verificable para la próxima semana.",
+      "glosario": "Atención a las necesidades de desarrollo y bienestar de cada persona como individuo.",
+      "oportunidad": "Atender la carga de personas concretas"
+    },
+    "RC": {
+      "conducta": "Establece acuerdos explícitos entre lo que se espera y lo que se entrega a cambio",
+      "fortaleza": "Formaliza acuerdos y condiciones claras",
+      "pregunta": "¿Qué acuerdo explícito, con condición y plazo, le ayudaría a cerrar la negociación pendiente?",
+      "accion": "Transforme un compromiso verbal reciente en un acuerdo escrito con responsable, condición y fecha.",
+      "glosario": "Clarificar expectativas y reconocer o retribuir cuando se cumplen los acuerdos.",
+      "oportunidad": "Formalizar acuerdos con condiciones y plazos"
+    },
+    "DPE-A": {
+      "conducta": "Monitorea desviaciones y actúa a tiempo para corregirlas antes de que escalen",
+      "fortaleza": "Anticipa riesgos y corrige desviaciones a tiempo",
+      "pregunta": "¿Qué indicador revisaría cada mañana para detectar a tiempo un riesgo como el de los internos sin registro?",
+      "accion": "Defina un indicador de alerta temprana por sector y acuerde quién lo revisa y cuándo.",
+      "glosario": "Vigilancia activa de errores y desviaciones respecto de estándares, con acción correctiva oportuna.",
+      "oportunidad": "Anticipar riesgos antes de que escalen"
+    },
+    "DPE-P": {
+      "conducta": "Interviene solo cuando el problema ya se hizo visible o grave",
+      "fortaleza": "Interviene antes de que los problemas escalen",
+      "pregunta": "En la decisión señalada, ¿qué habría cambiado si actuaba antes de que el problema se volviera evidente?",
+      "accion": "Revise una decisión postergada esta semana y defina el primer paso que puede dar hoy.",
+      "glosario": "Esperar a que los problemas se agraven para intervenir.",
+      "conducta_inversa": "Elige alternativas que actúan de forma temprana en lugar de esperar a que el problema se agrave",
+      "oportunidad": "Actuar antes de que el problema se haga visible"
+    },
+    "LF": {
+      "conducta": "Posterga decisiones o evita asumir responsabilidad cuando se le requiere",
+      "fortaleza": "Asume las decisiones cuando se le requieren",
+      "pregunta": "¿Qué decisión pendiente podría asumir ahora, aunque sea de forma parcial, para no dejar al equipo sin dirección?",
+      "accion": "Ante una solicitud urgente, responda con una decisión provisional y una fecha de revisión en lugar de postergarla.",
+      "glosario": "Ausencia de liderazgo: evitar decisiones, no involucrarse o no estar disponible.",
+      "conducta_inversa": "Elige alternativas que asumen la decisión en lugar de postergarla o delegarla sin seguimiento",
+      "oportunidad": "Asumir decisiones en lugar de postergarlas"
+    }
+  },
+  "themes": {
+    "recursos": "Recursos y espacios",
+    "protocolos": "Protocolos y normas",
+    "personas": "Personas y bienestar",
+    "docencia": "Docencia y convenios",
+    "vision": "Visión y comunicación",
+    "crisis": "Crisis operativa"
+  }
+}

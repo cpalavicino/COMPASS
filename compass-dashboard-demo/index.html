@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COMPASS · Diagnóstico de liderazgo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Silkscreen&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/compass.css">
+</head>
+<body>
+<header class="topbar" role="banner">
+  <div class="brand">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="19" fill="none" stroke="#eaf2f8" stroke-width="2.2"/><circle cx="24" cy="24" r="14" fill="none" stroke="#eaf2f8" stroke-opacity=".35"/><path d="M24 4 L27.5 20.5 L44 24 L27.5 27.5 L24 44 L20.5 27.5 L4 24 L20.5 20.5 Z" fill="#eaf2f8"/><circle cx="24" cy="24" r="3" fill="#0a1a2a"/></svg>
+    <div><b>COMPASS</b><small id="moduleName">Gestión en Salud</small></div>
+  </div>
+  <label class="pill"><span class="k">Participante</span><select id="sessionSel" aria-label="Seleccionar sesión"></select></label>
+  <div class="pill rep" id="repPill"></div>
+  <div class="pill" id="weekPill"></div>
+  <div class="spacer"></div>
+  <div class="seg" role="group" aria-label="Clave de puntuación" id="methodSeg"></div>
+  <span class="badge-demo">VISTA PREVIA · DATOS SINTÉTICOS</span>
+  <a class="btn primary" id="reportBtn" href="#/informe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>Informe técnico</a>
+</header>
+
+<nav class="stepper" aria-label="Recorrido">
+  <button class="step" data-go="#/modulos"><span class="dot">✓</span><span class="l">Módulo</span></button>
+  <div class="step-line"></div>
+  <button class="step" data-go="#/decisiones"><span class="dot">✓</span><span class="l">Simulación</span></button>
+  <div class="step-line"></div>
+  <button class="step on" data-go="#/resumen"><span class="dot">✓</span><span class="l">Diagnóstico</span></button>
+</nav>
+
+<div class="shell">
+  <nav class="rail" id="rail" aria-label="Secciones del diagnóstico"></nav>
+  <main class="view" id="view" tabindex="-1"></main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle"></aside>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<!-- Datos: generados por pipeline/run_pipeline.py. Reemplazar este archivo conecta nuevos datos sin tocar la interfaz. -->
+<script src="data/diagnosticos.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

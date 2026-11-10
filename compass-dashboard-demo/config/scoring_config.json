@@ -1,0 +1,83 @@
+{
+  "_descripcion": "Configuración de puntuación y análisis. Cambiar aquí, no en el código.",
+  "config_version": "0.3-demo",
+  "module_id": "gestion_salud_cesfam",
+
+  "scoring": {
+    "method": "expert_judgment",
+    "_method_opciones": ["expert_judgment", "rank_ordering"],
+    "compare_methods": true,
+    "expert_judgment": {
+      "key_file": "inputs/experts_raw.json",
+      "aggregation": "mode",
+      "_aggregation_opciones": ["mode", "median", "mean"],
+      "mode_tie_rule": "closest_to_median_then_lower",
+      "keep_zeros": true,
+      "scale": [0, 4],
+      "exclusion": {
+        "enabled": true,
+        "max_mad_from_consensus": 1.15,
+        "min_corr_with_consensus": 0.30,
+        "rule": "any"
+      }
+    },
+    "rank_ordering": {
+      "key_file": "inputs/rank_key.json",
+      "points": "k_minus_rank",
+      "_points_descripcion": "puntos = (k - rango) con k alternativas; el mejor rango recibe k-1. Empates comparten el rango medio."
+    }
+  },
+
+  "styles": {
+    "transformacional": { "label": "Transformacional", "dims": ["IIA", "IIC", "MI", "EI", "CI"], "color": "#8a78ff" },
+    "transaccional":    { "label": "Transaccional",    "dims": ["RC", "DPE-A"],                  "color": "#20a8a2" },
+    "pasivo":           { "label": "Pasivo / evitativo", "dims": ["DPE-P", "LF"],               "color": "#bd8720" }
+  },
+  "dimensions": {
+    "IIA":   { "label": "Influencia idealizada (atribuida)",  "style": "transformacional" },
+    "IIC":   { "label": "Influencia idealizada (conductual)", "style": "transformacional" },
+    "MI":    { "label": "Motivación inspiracional",           "style": "transformacional" },
+    "EI":    { "label": "Estimulación intelectual",           "style": "transformacional" },
+    "CI":    { "label": "Consideración individualizada",      "style": "transformacional" },
+    "RC":    { "label": "Recompensa contingente",             "style": "transaccional" },
+    "DPE-A": { "label": "Dirección por excepción (activa)",   "style": "transaccional" },
+    "DPE-P": { "label": "Dirección por excepción (pasiva)",   "style": "pasivo" },
+    "LF":    { "label": "Laissez-faire",                      "style": "pasivo" }
+  },
+
+  "profile": {
+    "share_basis": "mean_points_per_dimension",
+    "_share_basis_descripcion": "Para cada estilo: promedio de puntos de la clave por dimensión y por decisión. Evita que el estilo con más dimensiones (5) gane por construcción. % = puntos_estilo / suma × 100.",
+    "tie_tolerance_pct": 0.0,
+    "min_total_points": 0.000001,
+    "predominance_computed_before_rounding": true,
+    "excluded_nodes": []
+  },
+
+  "uncertainty": {
+    "seed": 20261122,
+    "bootstrap_nodes_B": 2000,
+    "bootstrap_combined_B": 1000,
+    "ci_level": 0.95,
+    "stability_label_thresholds": { "estable": 0.80, "moderada": 0.60 }
+  },
+
+  "narrative": {
+    "max_strengths": 3,
+    "max_opportunities": 3,
+    "strength_min_relative_index": 0.60,
+    "opportunity_max_relative_index": 0.50,
+    "passive_dims_are_inverse": true,
+    "evidence_levels": {
+      "solida":   { "min_nodes": 4, "ci_lower_gt": 0.0 },
+      "moderada": { "min_nodes": 2, "point_gt": 0.15 }
+    }
+  },
+
+  "export": {
+    "sessions": ["P-0142", "P-0087", "P-0203", "P-0311"],
+    "out_json": "data/diagnosticos.json",
+    "out_js": "data/diagnosticos.js",
+    "reports_dir": "reports"
+  }
+}

@@ -1,0 +1,957 @@
+{
+ "_nota": "Textos de nodos y alternativas del módulo Gestión en Salud (tabla derivada, sin datos identificatorios). lean_TrP = orientación gruesa por estilo usada SOLO como semilla para generar la clave sintética.",
+ "nodes": [
+  {
+   "node_id": "N01",
+   "title": "Primera reunión con los jefes de sector",
+   "context": "Reunión el primer día con los tres jefes de sector del CESFAM (azul, rojo y amarillo). Hay una crisis operativa urgente donde compiten fuertemente por recursos limitados (espacios críticos y personal). Cada uno defiende las prioridades de su área ante un colapso inminente en la atención que estallará si no se toma una decisión inmediata.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Buen día. Para comenzar, quiero recalcar que para que el CESFAM vaya por buen camino, es importante que mantengamos una atención centrada en las personas, transparencia y trabajo en equipo.",
+     "lean_TrP": [
+      2.7,
+      1.7,
+      0.4
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Gracias por la bienvenida. Tengo muchas ganas de aprender y en los próximos días iré conociéndolo todo.",
+     "lean_TrP": [
+      1.0,
+      0.7,
+      2.0
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Buenos días a todos. La secretaria me comentó los objetivos que tiene el CESFAM. Hay trabajo que hacer.",
+     "lean_TrP": [
+      0.9,
+      0.8,
+      1.9
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N02",
+   "title": "Proyecto universitario del sector azul",
+   "context": "El jefe del sector azul está defendiendo la continuidad de un proyecto universitario que lleva dos años en curso, exigiéndole a la nueva dirección el compromiso y respaldo total que no obtuvo de la gestión anterior.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "La docencia es parte de la misión del CESFAM. Consideraré el proyecto para entender el impacto en la carga del equipo antes de decidir.",
+     "lean_TrP": [
+      2.5,
+      2.0,
+      0.5
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo revisaré, pero acabo de asumir el puesto. Tengo muchas prioridades que atender primero.",
+     "lean_TrP": [
+      0.6,
+      1.1,
+      2.7
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Cualquier actividad extra necesita justificarse en carga asistencial antes de aceptarla. No podemos comprometer la atención al público.",
+     "lean_TrP": [
+      1.6,
+      2.2,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N03",
+   "title": "Postura frente a los protocolos",
+   "context": "El jefe del sector amarillo exige saber cuál será la postura de la nueva dirección frente al uso de protocolos, criticando la excesiva rigidez de la jefa del sector rojo al priorizar el cumplimiento estricto de las reglas por encima de la atención inmediata de los pacientes.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Los protocolos son lo mínimo, no el techo. Cuando no benefician al paciente hay que revisarlos formalmente, no ignorarlos.",
+     "lean_TrP": [
+      2.9,
+      2.1,
+      0.7
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Es un tema que iré conociendo. No quiero opinar al respecto sin tener más contexto.",
+     "lean_TrP": [
+      0.9,
+      0.8,
+      2.3
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Los protocolos existen por alguna razón. Espero que se respeten en todos los sectores.",
+     "lean_TrP": [
+      1.5,
+      2.1,
+      1.4
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N04",
+   "title": "Récord de cumplimiento del sector rojo",
+   "context": "La jefa del sector rojo defiende la gestión de su área destacando su récord perfecto de cumplimiento, utilizando estos datos objetivos para validar su postura y establecer una posición de autoridad o ventaja en medio de la discusión.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Los indicadores son importantes, pero antes de sacar conclusiones me interesa conocer bien el funcionamiento del CESFAM.",
+     "lean_TrP": [
+      2.0,
+      1.8,
+      1.2
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Eso es excelente. Por favor prepara un resumen del Sector Rojo para la tarde.",
+     "lean_TrP": [
+      1.4,
+      1.5,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Es algo que espero podamos lograr con todos los sectores.",
+     "lean_TrP": [
+      1.6,
+      1.2,
+      1.8
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N05",
+   "title": "¿Con quién reunirse primero?",
+   "context": "La asistente administrativa le pregunta con qué jefe de sector prefiere reunirse primero.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Me reuniré primero con el jefe del sector azul. No quiero tener problemas con temas docentes por el beneficio que tienen para el CESFAM.",
+     "lean_TrP": [
+      1.6,
+      1.6,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Avísele a la jefa del sector rojo que iré a su oficina primero. Revisaremos lo asociado a los protocolos para que todo vaya en regla en el CESFAM.",
+     "lean_TrP": [
+      1.8,
+      2.1,
+      0.7
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Primero iré a la oficina del jefe del sector amarillo. Quiero revisar todo lo asociado a los pacientes antes de tomar cualquier decisión.",
+     "lean_TrP": [
+      2.3,
+      1.5,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N06",
+   "title": "Programas docentes y horas del personal",
+   "context": "Al reunirse con el jefe del sector azul en su oficina, este defiende ante el director la continuidad de los programas docentes, argumentando que los grandes ingresos económicos que generan justifican el uso de horas del personal, a pesar de la rotunda oposición de los jefes del sector rojo y amarillo.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "No se preocupe. Siempre tendré en consideración el compromiso docente a la hora de tomar decisiones.",
+     "lean_TrP": [
+      2.4,
+      1.3,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "No puedo garantizar eso. Los pacientes son lo primero.",
+     "lean_TrP": [
+      1.3,
+      1.2,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "El compromiso docente es importante, pero no puedo comprometer la atención a los pacientes en beneficio de la docencia.",
+     "lean_TrP": [
+      1.9,
+      1.4,
+      0.8
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N07",
+   "title": "Derivación sin autorización",
+   "context": "Al reunirse con el jefe del sector amarillo en su oficina, este le informa al director que su enfermera decidió derivar a un paciente grave sin esperar la autorización correspondiente debido a la ausencia del médico de turno, y le pregunta de manera directa cuál es su postura frente a esta falta al protocolo.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "La decisión clínica fue correcta. La idea es que podamos trabajar en un protocolo formal para proteger a todos cuando ocurra algo similar.",
+     "lean_TrP": [
+      2.4,
+      1.8,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "La verdad depende de cada caso. No puedo opinar sin más información sobre los efectos de esa derivación.",
+     "lean_TrP": [
+      0.9,
+      0.9,
+      1.6
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Es importante que en el futuro espere autorización antes de actuar. Si la derivación es incorrecta, puede perjudicar seriamente al CESFAM.",
+     "lean_TrP": [
+      1.5,
+      2.6,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N08",
+   "title": "¿Sancionar a la enfermera?",
+   "context": "En la misma reunión, el jefe del sector amarillo le pregunta si va a sancionar a la enfermera.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Su acción clínica fue correcta aunque el proceso administrativo no lo fue. Por ahora no aplicaré ninguna sanción.",
+     "lean_TrP": [
+      2.0,
+      1.5,
+      1.1
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Iniciaré un proceso y por ahora no hay sanción, pero es importante que siga los protocolos.",
+     "lean_TrP": [
+      1.7,
+      2.1,
+      1.2
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "La situación quedará en su historial. Es importante que en adelante aplique los protocolos para que no hayan consecuencias formales.",
+     "lean_TrP": [
+      1.4,
+      3.3,
+      0.8
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N09",
+   "title": "Reporte de infracción del sector rojo",
+   "context": "Aparece la jefa del sector rojo informando que una enfermera del sector amarillo atendió a un paciente sin un médico presente, indicando que es una infracción al protocolo.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Gracias por el reporte. Ya tengo contexto del caso y habrá un protocolo formal de actuación lo antes posible.",
+     "lean_TrP": [
+      2.2,
+      2.1,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Envíame el informe por escrito, durante la semana lo veré.",
+     "lean_TrP": [
+      1.0,
+      0.9,
+      1.8
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Tienes razón, efectivamente es una infracción. De ahora en adelante me aseguraré de que el protocolo se aplique siempre, sin excepción.",
+     "lean_TrP": [
+      1.6,
+      2.8,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N10",
+   "title": "Exigencia de hacer cumplir protocolos",
+   "context": "Al reunirse con la jefa del sector rojo en su oficina, esta le exige al director hacer cumplir los protocolos del CESFAM, acusando directamente al sector amarillo de saltarse las normas debido a la permisividad de la gestión anterior, y desafía a la nueva dirección a tomar medidas concretas para frenar esta situación.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "No puedo cambiarlo de un día para otro. Lo del sector amarillo viene de mucho antes que yo asumiera por lo que no lo puedo corregir ahora.",
+     "lean_TrP": [
+      0.8,
+      1.0,
+      2.2
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Quiero terminar ese problema de raíz, el sector amarillo no puede seguir actuando de esa manera.",
+     "lean_TrP": [
+      1.9,
+      2.0,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Intentaré solucionarlo por el bien del CESFAM, pero no le prometo cambios inmediatos.",
+     "lean_TrP": [
+      1.9,
+      1.9,
+      1.8
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N11",
+   "title": "Corte de agua en el sector rojo",
+   "context": "La asistente administrativa informa sobre un corte de agua no notificado que paraliza la atención de 40 pacientes en el sector rojo, frente a lo cual la jefa de este sector ofrece una solución parcial: absorber a la mitad de esos pacientes en el sector amarillo, quedando a la espera de la autorización del director.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "No podemos dejar a los pacientes sin atención. Coordine con el jefe del sector amarillo para reorganizar todo sin suspender nada.",
+     "lean_TrP": [
+      2.5,
+      2.6,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "El Sector Rojo deberá suspender sus atenciones. Como jefa informe a los pacientes.",
+     "lean_TrP": [
+      0.8,
+      1.6,
+      1.7
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Este es un problema de infraestructura que escapa de nuestras manos. Hay que llamar al municipio.",
+     "lean_TrP": [
+      0.9,
+      1.0,
+      2.3
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N12",
+   "title": "Reconocer la jornada del equipo",
+   "context": "La jefa del sector rojo informa que, a pesar de los inconvenientes, pudieron atender casi la totalidad de los pacientes.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Atendieron a casi todos los pacientes pese al corte de agua, eso no pasa en cualquier CESFAM. Es mérito de ustedes como equipo.",
+     "lean_TrP": [
+      3.0,
+      2.0,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Buen trabajo a todo el equipo, ahora no bajar los brazos para las actividades de la tarde.",
+     "lean_TrP": [
+      2.1,
+      1.9,
+      1.1
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Fue una gran jornada la de la mañana, pero aún hay trabajo que hacer.",
+     "lean_TrP": [
+      1.5,
+      1.8,
+      1.1
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N13",
+   "title": "Primera reunión formal: retraso",
+   "context": "En la tarde es la primera reunión formal con los jefes de sector. El jefe del sector azul llega 5 minutos tarde, algo que nota la jefa del sector rojo y tensa el ambiente. Todos esperan que el director hable.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Me gustaría darles la oportunidad de hablar, alguna necesidad o inconveniente que hayan tenido hasta ahora.",
+     "lean_TrP": [
+      2.4,
+      1.6,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Este día ha sido complicado, sin embargo quiero felicitarlos por la buena labor realizada hasta ahora.",
+     "lean_TrP": [
+      2.8,
+      2.1,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Jefe del sector azul, es importante que llegues a la hora para las próximas reuniones, tiempo no nos sobra.",
+     "lean_TrP": [
+      0.9,
+      1.9,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N14",
+   "title": "Sobrecarga del sector amarillo",
+   "context": "En la reunión, el jefe del sector amarillo advierte que su equipo está al borde del colapso debido a la falta de personal, lo que los ha obligado a realizar turnos continuos sin descanso, y alerta que esta situación de sobrecarga ya es insostenible.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Reconozco la urgencia, eso impacta en la calidad de atención. Me comprometo a dar una respuesta concreta lo antes posible.",
+     "lean_TrP": [
+      2.5,
+      2.0,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo tendré en cuenta para la propuesta de horario del viernes.",
+     "lean_TrP": [
+      1.3,
+      1.6,
+      1.6
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Eso depende del presupuesto disponible, no puedo verlo sin el visto del área correspondiente.",
+     "lean_TrP": [
+      0.8,
+      1.2,
+      2.3
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N15",
+   "title": "Amenaza de renuncias",
+   "context": "Además, el jefe del sector amarillo comunica que compañeros tienen intenciones de renunciar si la situación no mejora.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Comprendo que sea una situación no sostenible. Veré si puedo revisar los turnos para la próxima semana, independiente del presupuesto.",
+     "lean_TrP": [
+      2.2,
+      2.0,
+      1.2
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Como jefe del sector amarillo, gestiona los horarios correspondientes.Podemos revisarlos en conjunto si tienes una propuesta.",
+     "lean_TrP": [
+      2.2,
+      1.8,
+      1.1
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Las renuncias son una decisión personal de cada funcionario. Contra eso no puedo hacer mucho, sobre todo si tener más personal no depende de mí.",
+     "lean_TrP": [
+      0.6,
+      1.0,
+      2.8
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N16",
+   "title": "¿Tiene una visión para el CESFAM?",
+   "context": "Al reunirse con el jefe del sector azul en su oficina, este le pregunta al director si tiene una visión para el CESFAM, ya que el anterior nunca tuvo una.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Tengo una visión en construcción, pero necesito a todos como equipo para darle forma real.",
+     "lean_TrP": [
+      2.8,
+      1.6,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Aún estoy conociendo al equipo, necesito unas semanas para formularla.",
+     "lean_TrP": [
+      1.3,
+      1.2,
+      1.8
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Mi visión es hacer bien lo que hay que hacer y los indicadores son la guía.",
+     "lean_TrP": [
+      1.2,
+      2.5,
+      1.1
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N17",
+   "title": "Cupos de práctica clínica",
+   "context": "Además, el jefe del sector azul le informa al director que recibió un correo desde la coordinación de prácticas de una universidad preguntando si se mantendrán los cupos de práctica clínica, añadiendo que solicitaron una respuesta pronto.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Por favor confirme el interés del CESFAM y la mantención de los cupos. Estas prácticas son una enorme oportunidad.",
+     "lean_TrP": [
+      2.3,
+      1.9,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Me encargaré de gestionar la labor docente ya que los box son escasos, le avisaré en cuanto tenga respuesta.",
+     "lean_TrP": [
+      1.6,
+      2.1,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Todavía estoy en proceso de revisión interna y verificando box disponibles, no puedo darle una respuesta aún.",
+     "lean_TrP": [
+      1.1,
+      1.4,
+      1.6
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N18",
+   "title": "Doble agendamiento de boxes",
+   "context": "La asistente administrativa urge al director a resolver para hoy dos conflictos de doble agendamiento de espacios (boxes) para la próxima semana, los cuales involucran cruces y disputas directas entre los sectores azul, rojo y amarillo.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Muchas gracias por la información, estoy consciente que debo revisar y dejar todo eso listo hoy. Entregaré una respuesta apropiada.",
+     "lean_TrP": [
+      2.1,
+      2.1,
+      0.7
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo tendré en cuenta, apenas resuelva todo lo pendiente para hoy y tenga algo de tiempo lo revisaré.",
+     "lean_TrP": [
+      1.2,
+      1.7,
+      1.8
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Gracias por la información, pero es para hoy en la tarde, tengo tiempo para revisarlo aún.",
+     "lean_TrP": [
+      0.9,
+      1.0,
+      2.1
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N19",
+   "title": "El único ecógrafo compartido",
+   "context": "Además, la asistente administrativa le informa al director sobre un problema organizativo histórico: los miércoles por la mañana, los tres sectores deben compartir el único ecógrafo disponible, una situación conflictiva a la que todos se habían acostumbrado sin cuestionarla ni intentar resolverla.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Convoca a los jefes de sector para averiguar si hay alguna razón técnica para que el ecógrafo esté en ese horario o si es tradición, sino se puede redistribuir su uso.",
+     "lean_TrP": [
+      2.6,
+      2.1,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Pero si ha funcionado así, no es necesario que se corrija su uso hasta que haya un conflicto o problema real. Dejemos todo como está.",
+     "lean_TrP": [
+      0.8,
+      0.9,
+      2.5
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Por ahora pasémoslo por alto, no creo que sea un problema grave.",
+     "lean_TrP": [
+      0.4,
+      0.6,
+      2.5
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N20",
+   "title": "Turnos rotativos vs. reglamento",
+   "context": "Los tres jefes de sector acuerdan mantener sin cambios el uso compartido del ecógrafo, ya que no les ha generado problemas clínicos. Sin embargo, surge un nuevo desacuerdo cuando el jefe del sector amarillo propone implementar turnos rotativos en su sector, los cuales ha verificado de manera informal que funcionan. Ante esto, la jefa del sector rojo se opone rotundamente argumentando que dicha medida viola el reglamento de turnos fijos del CESFAM.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Ambas perspectivas tienen peso. Es importante leer el reglamento antes de decidir, sin embargo si la propuesta de Ríos funciona, debe tenerse en cuenta.",
+     "lean_TrP": [
+      2.3,
+      1.4,
+      0.7
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lamentablemente si viola el reglamento no puede aplicarse hasta que se modifique formalmente.",
+     "lean_TrP": [
+      1.1,
+      2.2,
+      1.4
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "El reglamento puede revisarse, sobre todo si hay evidencia de que algo funciona mejor.",
+     "lean_TrP": [
+      1.9,
+      1.1,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N21",
+   "title": "Internos sin registro formal",
+   "context": "El jefe del sector azul advierte al director sobre un riesgo de auditoría en este sector: dos internos de intercambio están trabajando sin registro formal, ya que solo cuentan con un acuerdo verbal realizado con la administración anterior.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Un acuerdo verbal no protege a los internos ni al CESFAM. Puedo ayudarte a formalizarlo, pero hay que hacerlo lo antes posible.",
+     "lean_TrP": [
+      2.6,
+      1.8,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo regularizaremos cuando haya tiempo, que esta semana hay muchas cosas.",
+     "lean_TrP": [
+      0.7,
+      0.8,
+      2.7
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Lamentablemente los internos deben retirarse hasta que todo esté formalizado. Puede haber sanciones graves para el CESFAM si ocurre algo.",
+     "lean_TrP": [
+      1.0,
+      1.8,
+      0.9
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N22",
+   "title": "Convenio universitario y Box 1",
+   "context": "El jefe del sector azul exige formalizar el convenio universitario para blindar el proyecto docente frente a futuros cambios de administración, y reitera su reclamo pendiente por la asignación del Box 1.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Aprobaré la reserva de Box 1 para los martes. Además, le propongo que lidere el proceso del convenio por su vínculo directo con la universidad.",
+     "lean_TrP": [
+      2.7,
+      1.9,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Aprobaré la reserva de Box 1, sin embargo, el convenio se verá a futuro. Aún ha pasado poco tiempo para analizarlo a fondo",
+     "lean_TrP": [
+      1.5,
+      1.8,
+      1.4
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Lamentablemente el convenio depende del SEREMI y no está en mis manos gestionarlo.",
+     "lean_TrP": [
+      0.6,
+      0.6,
+      2.5
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N23",
+   "title": "Agotamiento de un TENS",
+   "context": "Un TENS le expresa al director su profundo agotamiento debido a las extensas jornadas de trabajo que ha estado asumiendo, advirtiendo que ha llegado a su límite físico y mental, por lo que ya no puede seguir rindiendo de manera óptima.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Consideraré específicamente tu carga horaria para la propuesta de la próxima semana. Esto afecta tanto a ti personalmente como tu rendimiento en el CESFAM.",
+     "lean_TrP": [
+      2.4,
+      2.0,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo tendré en cuenta para la propuesta de hoy. No puedes seguir manteniendo estos niveles de carga horaria",
+     "lean_TrP": [
+      2.1,
+      2.5,
+      0.8
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Lamentablemente todos están con carga. Veré qué se puede hacer a futuro, ya que muchos están a tu situación y no hay presupuesto para más personal.",
+     "lean_TrP": [
+      0.8,
+      0.8,
+      2.2
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N24",
+   "title": "Reasignación del Box 1",
+   "context": "El jefe del sector azul le exige una explicación al director por haberle asignado el Box 1 a la jefa del sector rojo sin previo aviso, rompiendo la promesa de reservarlo para la supervisión de sus internos y perjudicando la planificación que ya tenía confirmada con la universidad.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Tienes toda la razón en estar molesto y asumo la responsabilidad por este error en la comunicación. Nuestro objetivo es que tanto la docencia como la atención clínica funcionen con excelencia. Suspende la docencia esta semana y desde la próxima tienes el Box 1 garantizado.",
+     "lean_TrP": [
+      2.4,
+      1.9,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Déjame el tema sobre la mesa y cuando tenga menos carga veré qué puedo hacer con esos horarios. Por ahora, vas a tener que arreglártelas con los boxes que queden libres.",
+     "lean_TrP": [
+      0.9,
+      0.9,
+      2.1
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "La reasignación se hizo porque la auditoría interna del sector rojo es crítica para sus estándares y el protocolo exige priorizar dichas auditorías sobre lo docente. Si el martes logras acomodar a los internos, me comprometo a que el Box 1 quede para ti la próxima semana.",
+     "lean_TrP": [
+      1.8,
+      2.2,
+      0.8
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N25",
+   "title": "Flexibilidad horaria a cambio de turnos",
+   "context": "El jefe del sector amarillo le propone al director un acuerdo directo: solicita flexibilidad horaria por las mañanas a cambio de garantizar, incluso por escrito, que su equipo (el sector amarillo) se encargará de cubrir los turnos de noche.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Aceptaré tu petición condicionado al cumplimiento de indicadores del sector amarillo.",
+     "lean_TrP": [
+      1.7,
+      2.3,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo consideraré pero necesito verlo operativamente antes de comprometerme. Además, el sector amarillo tiene problemas con las cargas horarias, por lo que su jefe no debería estar ausente.",
+     "lean_TrP": [
+      1.8,
+      2.2,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Lamentablemente la flexibilidad de horarios no está contemplada en el reglamento. No puedo brindarte esa solicitud",
+     "lean_TrP": [
+      1.1,
+      1.5,
+      1.1
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N26",
+   "title": "Error menor de registro",
+   "context": "La asistente administrativa le informa al director que el viernes hubo un pequeño error en el registro de un procedimiento del sector amarillo.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Le avisaré directamente al jefe del sector amarillo para que lo corrija. Al ser menor, debería tomarle muy poco tiempo.",
+     "lean_TrP": [
+      1.9,
+      2.2,
+      0.6
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Por favor, avísale al jefe del sector amarillo para que lo corrija.",
+     "lean_TrP": [
+      1.6,
+      1.4,
+      1.4
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Está bien, es menor así que no pasa nada.",
+     "lean_TrP": [
+      0.7,
+      0.6,
+      2.2
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N27",
+   "title": "Omisión de reporte de riesgo",
+   "context": "La jefa del sector rojo informa que el sector azul no reportó una situación menor de riesgo la semana pasada, por lo que solicita que se le avise al jefe del sector azul.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "La situación fue omisión y no ocultación. Hoy estoy con muchas cosas, notificaré a Guzmán la próxima semana para que regularice el reporte.",
+     "lean_TrP": [
+      1.1,
+      1.3,
+      2.5
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Lo revisaré con Guzmán el lunes de la próxima semana. No te preocupes, solo fue una omisión, no es grave.",
+     "lean_TrP": [
+      1.1,
+      1.2,
+      2.0
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "La situación fue una omisión. No te preocupes. Ya pasó y no ocurrirá nada mayor.",
+     "lean_TrP": [
+      0.7,
+      0.7,
+      2.4
+     ]
+    }
+   ]
+  },
+  {
+   "node_id": "N28",
+   "title": "Borrador de protocolo de urgencias",
+   "context": "El jefe del sector amarillo le presenta al director un borrador de protocolo de urgencias diseñado para guiar paso a paso al personal sobre cómo actuar cuando no haya un médico presente, buscando resolver de forma proactiva el problema operativo discutido días atrás.",
+   "alternatives": [
+    {
+     "alt_id": "A",
+     "text": "Muchas gracias. Lo haré llegar a mis superiores para que lo revisen y opinen si vale o no la pena agregarlo. Si más CESFAM han pasado por esto, seguro no habrá problema.",
+     "lean_TrP": [
+      2.0,
+      1.6,
+      1.1
+     ]
+    },
+    {
+     "alt_id": "B",
+     "text": "Que bien por tu iniciativa, gracias. Mis superiores lo revisarán y te informaré cualquier situación o si es necesario una modificación.",
+     "lean_TrP": [
+      2.2,
+      1.6,
+      0.9
+     ]
+    },
+    {
+     "alt_id": "C",
+     "text": "Se lo entregaré a Soto para que lo revise antes de enviarlo a los superiores para que lo aprueben.",
+     "lean_TrP": [
+      1.3,
+      1.6,
+      2.0
+     ]
+    }
+   ]
+  }
+ ]
+}

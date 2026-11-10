@@ -1,0 +1,597 @@
+{
+ "schema_version": "compass-session/0.1",
+ "synthetic": true,
+ "session_id": "S-2026-0016",
+ "participant_code": "P-9653",
+ "module_id": "gestion_salud_cesfam",
+ "module_version": "1.0-demo",
+ "started_at": "2026-11-05T10:00:00-03:00",
+ "duration_ms": 1595943,
+ "decisions": [
+  {
+   "node_id": "N01",
+   "alt_id": "B",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 59737,
+   "t_decided_ms": 79122,
+   "process": {
+    "dwell_ms": {
+     "A": 5534,
+     "B": 5394,
+     "C": 3629
+    },
+    "considerations": {
+     "A": 1,
+     "B": 3,
+     "C": 1
+    },
+    "alternations": 3,
+    "first_considered": "C",
+    "last_considered": "B"
+   }
+  },
+  {
+   "node_id": "N02",
+   "alt_id": "C",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 151595,
+   "t_decided_ms": 172481,
+   "process": {
+    "dwell_ms": {
+     "A": 5433,
+     "B": 4574,
+     "C": 3904
+    },
+    "considerations": {
+     "A": 1,
+     "B": 1,
+     "C": 3
+    },
+    "alternations": 4,
+    "first_considered": "B",
+    "last_considered": "C"
+   }
+  },
+  {
+   "node_id": "N03",
+   "alt_id": "C",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 254761,
+   "t_decided_ms": 266462,
+   "process": {
+    "dwell_ms": {
+     "A": 2708,
+     "B": 1558,
+     "C": 3778
+    },
+    "considerations": {
+     "A": 1,
+     "B": 3,
+     "C": 4
+    },
+    "alternations": 7,
+    "first_considered": "C",
+    "last_considered": "C"
+   }
+  },
+  {
+   "node_id": "N04",
+   "alt_id": "B",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 341624,
+   "t_decided_ms": 368966,
+   "process": {
+    "dwell_ms": {
+     "A": 8468,
+     "B": 4537,
+     "C": 6144
+    },
+    "considerations": {
+     "A": 1,
+     "B": 2,
+     "C": 3
+    },
+    "alternations": 4,
+    "first_considered": "C",
+    "last_considered": "B"
+   }
+  },
+  {
+   "node_id": "N05",
+   "alt_id": "B",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 415206,
+   "t_decided_ms": 435830,
+   "process": {
+    "dwell_ms": {
+     "A": 1641,
+     "B": 3653,
+     "C": 9357
+    },
+    "considerations": {
+     "A": 4,
+     "B": 3,
+     "C": 1
+    },
+    "alternations": 7,
+    "first_considered": "B",
+    "last_considered": "B"
+   }
+  },
+  {
+   "node_id": "N10",
+   "alt_id": "A",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 475038,
+   "t_decided_ms": 494519,
+   "process": {
+    "dwell_ms": {
+     "A": 1823,
+     "B": 5895,
+     "C": 3661
+    },
+    "considerations": {
+     "A": 4,
+     "B": 2,
+     "C": 1
+    },
+    "alternations": 6,
+    "first_considered": "C",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N11",
+   "alt_id": "C",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 538430,
+   "t_decided_ms": 574788,
+   "process": {
+    "dwell_ms": {
+     "A": 9170,
+     "B": 2364,
+     "C": 19181
+    },
+    "considerations": {
+     "A": 2,
+     "B": 2,
+     "C": 3
+    },
+    "alternations": 5,
+    "first_considered": "A",
+    "last_considered": "C"
+   }
+  },
+  {
+   "node_id": "N12",
+   "alt_id": "A",
+   "day": "Lunes",
+   "block": "Mañana",
+   "t_presented_ms": 638236,
+   "t_decided_ms": 653050,
+   "process": {
+    "dwell_ms": {
+     "A": 3544,
+     "B": 5406,
+     "C": 2703
+    },
+    "considerations": {
+     "A": 2,
+     "B": 1,
+     "C": 1
+    },
+    "alternations": 2,
+    "first_considered": "C",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N13",
+   "alt_id": "A",
+   "day": "Lunes",
+   "block": "Tarde",
+   "t_presented_ms": 726589,
+   "t_decided_ms": 745661,
+   "process": {
+    "dwell_ms": {
+     "A": 3665,
+     "B": 2674,
+     "C": 5120
+    },
+    "considerations": {
+     "A": 2,
+     "B": 1,
+     "C": 3
+    },
+    "alternations": 4,
+    "first_considered": "C",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N14",
+   "alt_id": "A",
+   "day": "Lunes",
+   "block": "Tarde",
+   "t_presented_ms": 783666,
+   "t_decided_ms": 817494,
+   "process": {
+    "dwell_ms": {
+     "A": 19057,
+     "B": 4202,
+     "C": 5895
+    },
+    "considerations": {
+     "A": 1,
+     "B": 2,
+     "C": 3
+    },
+    "alternations": 5,
+    "first_considered": "A",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N15",
+   "alt_id": "A",
+   "day": "Lunes",
+   "block": "Tarde",
+   "t_presented_ms": 891716,
+   "t_decided_ms": 907811,
+   "process": {
+    "dwell_ms": {
+     "A": 1896,
+     "B": 1965,
+     "C": 5291
+    },
+    "considerations": {
+     "A": 5,
+     "B": 1,
+     "C": 2
+    },
+    "alternations": 7,
+    "first_considered": "A",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N18",
+   "alt_id": "B",
+   "day": "Martes",
+   "block": "Tarde",
+   "t_presented_ms": 980217,
+   "t_decided_ms": 998448,
+   "process": {
+    "dwell_ms": {
+     "A": 7273,
+     "B": 1786,
+     "C": 2498
+    },
+    "considerations": {
+     "A": 2,
+     "B": 4,
+     "C": 1
+    },
+    "alternations": 6,
+    "first_considered": "C",
+    "last_considered": "B"
+   }
+  },
+  {
+   "node_id": "N19",
+   "alt_id": "B",
+   "day": "Martes",
+   "block": "Tarde",
+   "t_presented_ms": 1058003,
+   "t_decided_ms": 1079768,
+   "process": {
+    "dwell_ms": {
+     "A": 3795,
+     "B": 5549,
+     "C": 2890
+    },
+    "considerations": {
+     "A": 1,
+     "B": 1,
+     "C": 2
+    },
+    "alternations": 3,
+    "first_considered": "C",
+    "last_considered": "B"
+   }
+  },
+  {
+   "node_id": "N20",
+   "alt_id": "C",
+   "day": "Miércoles",
+   "block": "Mañana",
+   "t_presented_ms": 1126848,
+   "t_decided_ms": 1152725,
+   "process": {
+    "dwell_ms": {
+     "A": 1015,
+     "B": 2363,
+     "C": 11832
+    },
+    "considerations": {
+     "A": 2,
+     "B": 3,
+     "C": 4
+    },
+    "alternations": 7,
+    "first_considered": "C",
+    "last_considered": "C"
+   }
+  },
+  {
+   "node_id": "N21",
+   "alt_id": "A",
+   "day": "Miércoles",
+   "block": "Mañana",
+   "t_presented_ms": 1229472,
+   "t_decided_ms": 1247836,
+   "process": {
+    "dwell_ms": {
+     "A": 2141,
+     "B": 3653,
+     "C": 3375
+    },
+    "considerations": {
+     "A": 2,
+     "B": 3,
+     "C": 2
+    },
+    "alternations": 6,
+    "first_considered": "C",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N22",
+   "alt_id": "C",
+   "day": "Miércoles",
+   "block": "Tarde",
+   "t_presented_ms": 1326039,
+   "t_decided_ms": 1341392,
+   "process": {
+    "dwell_ms": {
+     "A": 1087,
+     "B": 1812,
+     "C": 6927
+    },
+    "considerations": {
+     "A": 1,
+     "B": 3,
+     "C": 3
+    },
+    "alternations": 5,
+    "first_considered": "A",
+    "last_considered": "C"
+   }
+  },
+  {
+   "node_id": "N23",
+   "alt_id": "C",
+   "day": "Jueves",
+   "block": "Mañana",
+   "t_presented_ms": 1411458,
+   "t_decided_ms": 1423929,
+   "process": {
+    "dwell_ms": {
+     "A": 5706,
+     "B": 867,
+     "C": 2170
+    },
+    "considerations": {
+     "A": 2,
+     "B": 2,
+     "C": 2
+    },
+    "alternations": 4,
+    "first_considered": "A",
+    "last_considered": "C"
+   }
+  },
+  {
+   "node_id": "N24",
+   "alt_id": "C",
+   "day": "Jueves",
+   "block": "Tarde",
+   "t_presented_ms": 1458530,
+   "t_decided_ms": 1473890,
+   "process": {
+    "dwell_ms": {
+     "A": 1712,
+     "B": 2153,
+     "C": 6904
+    },
+    "considerations": {
+     "A": 1,
+     "B": 1,
+     "C": 2
+    },
+    "alternations": 3,
+    "first_considered": "A",
+    "last_considered": "B"
+   }
+  },
+  {
+   "node_id": "N26",
+   "alt_id": "A",
+   "day": "Viernes",
+   "block": "Mañana",
+   "t_presented_ms": 1535480,
+   "t_decided_ms": 1551702,
+   "process": {
+    "dwell_ms": {
+     "A": 5605,
+     "B": 4915,
+     "C": 2092
+    },
+    "considerations": {
+     "A": 1,
+     "B": 1,
+     "C": 2
+    },
+    "alternations": 3,
+    "first_considered": "B",
+    "last_considered": "A"
+   }
+  },
+  {
+   "node_id": "N28",
+   "alt_id": "C",
+   "day": "Viernes",
+   "block": "Tarde",
+   "t_presented_ms": 1578108,
+   "t_decided_ms": 1595943,
+   "process": {
+    "dwell_ms": {
+     "A": 6584,
+     "B": 1340,
+     "C": 4541
+    },
+    "considerations": {
+     "A": 4,
+     "B": 3,
+     "C": 2
+    },
+    "alternations": 8,
+    "first_considered": "C",
+    "last_considered": "C"
+   }
+  }
+ ],
+ "commitments": [
+  {
+   "commit_id": "C-N14A",
+   "node_id": "N14",
+   "alt_id": "A",
+   "mechanic": "Agenda",
+   "expected_action": "Reforzar la dotación del sector amarillo en la propuesta del viernes",
+   "result": "cumplido",
+   "evidence": "Acción canónica registrada dentro de la ventana esperada"
+  },
+  {
+   "commit_id": "C-N15A",
+   "node_id": "N15",
+   "alt_id": "A",
+   "mechanic": "Agenda",
+   "expected_action": "Revisar los turnos del sector amarillo para la próxima semana",
+   "result": "cumplido",
+   "evidence": "Acción canónica registrada dentro de la ventana esperada"
+  },
+  {
+   "commit_id": "C-N21A",
+   "node_id": "N21",
+   "alt_id": "A",
+   "mechanic": "Documentos",
+   "expected_action": "Formalizar el registro de los internos de intercambio",
+   "result": "parcial",
+   "evidence": "Acción registrada fuera de plazo o incompleta"
+  },
+  {
+   "commit_id": "C-N24C",
+   "node_id": "N24",
+   "alt_id": "C",
+   "mechanic": "Agenda",
+   "expected_action": "Asignar el Box 1 al sector azul la próxima semana",
+   "result": "no_cumplido",
+   "evidence": "Sin acción canónica correspondiente en el registro"
+  },
+  {
+   "commit_id": "C-N26A",
+   "node_id": "N26",
+   "alt_id": "A",
+   "mechanic": "Consultas",
+   "expected_action": "Avisar directamente al jefe del sector amarillo para corregir el registro",
+   "result": "cumplido",
+   "evidence": "Acción canónica registrada dentro de la ventana esperada"
+  },
+  {
+   "commit_id": "C-N28C",
+   "node_id": "N28",
+   "alt_id": "C",
+   "mechanic": "Delegación",
+   "expected_action": "Entregar el borrador a Soto para revisión técnica",
+   "result": "cumplido",
+   "evidence": "Acción canónica registrada dentro de la ventana esperada"
+  }
+ ],
+ "global_attributes": [
+  {
+   "day": "Lunes",
+   "block": "Inicio",
+   "reputacion": 50.0
+  },
+  {
+   "day": "Lunes",
+   "block": "Mañana",
+   "reputacion": 49.0
+  },
+  {
+   "day": "Lunes",
+   "block": "Tarde",
+   "reputacion": 55.0
+  },
+  {
+   "day": "Martes",
+   "block": "Tarde",
+   "reputacion": 51.0
+  },
+  {
+   "day": "Miércoles",
+   "block": "Mañana",
+   "reputacion": 57.0
+  },
+  {
+   "day": "Miércoles",
+   "block": "Tarde",
+   "reputacion": 53.0
+  },
+  {
+   "day": "Jueves",
+   "block": "Mañana",
+   "reputacion": 50.0
+  },
+  {
+   "day": "Jueves",
+   "block": "Tarde",
+   "reputacion": 52.0
+  },
+  {
+   "day": "Viernes",
+   "block": "Mañana",
+   "reputacion": 54.0
+  },
+  {
+   "day": "Viernes",
+   "block": "Tarde",
+   "reputacion": 53.0
+  }
+ ],
+ "npc_final": {
+  "Guzmán": {
+   "confianza": 57.0
+  },
+  "Soto": {
+   "confianza": 53.0
+  },
+  "Ríos": {
+   "confianza": 55.0
+  },
+  "Asistente": {
+   "confianza": 46.0
+  },
+  "TENS": {
+   "confianza": 46.0
+  }
+ }
+}
